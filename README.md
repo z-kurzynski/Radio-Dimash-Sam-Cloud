@@ -1,32 +1,50 @@
-# RadioDimah Player
+=== RadioDimah Player ===
+Contributors: TwojeImie (np. zk)
+Donate link: https://radiodimash.pl/
+Tags: radio, odtwarzacz, shortcode, kolory, streaming
+Requires at least: 5.0
+Tested up to: 6.3
+Stable tag: 1.0
+Requires PHP: 7.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-**RadioDimah Player** to wtyczka WordPress umożliwiająca łatwe dodanie odtwarzacza radia za pomocą shortcode `[radio_player]`.  
-Wtyczka pozwala na ustawienie kolorów interfejsu i adresu strumienia radia w panelu administracyjnym.
+Opis:
+RadioDimah Player to prosty wtyczka WordPress umożliwiająca dodanie odtwarzacza radia za pomocą shortcode [radio_player].
+Umożliwia ustawienie kolorów i adresu strumienia w panelu administracyjnym.
 
----
+== Instalacja ==
 
-## Funkcje
+1. Wgraj folder `radiodimah-player` do katalogu `/wp-content/plugins/`.
+2. Aktywuj wtyczkę w panelu WordPress w sekcji "Wtyczki".
+3. Przejdź do "Ustawienia > RadioDimah Player" i skonfiguruj kolory i URL.
+4. Użyj shortcode `[radio_player]` na stronie lub w poście.
 
-- Krótki kod `[radio_player]` do osadzenia odtwarzacza na stronie lub w poście
-- Panel ustawień z możliwością konfiguracji kolorów i URL strumienia
-- Opcja resetowania ustawień do wartości domyślnych
-- Estetyczny odtwarzacz oparty na widgetach SamCloud
+== Użycie ==
 
----
+Wstaw w treści:
 
-## Instalacja
-
-1. Pobierz plik ZIP lub skompiluj swoją wersję wtyczki z repozytorium GitHub.
-2. W panelu WordPress przejdź do **Wtyczki > Dodaj nową**.
-3. Kliknij **Wyślij wtyczkę na serwer** i wybierz plik ZIP.
-4. Aktywuj wtyczkę.
-5. W menu **Ustawienia > RadioDimah Player** skonfiguruj kolory i adres strumienia.
-
----
-
-## Użycie
-
-Wstaw shortcode w treści strony lub posta:
-
-```plaintext
 [radio_player]
+
+Możesz też podać własny URL:
+
+[radio_player url="https://twoj-adres.pl/strumien.mp3"]
+
+== Konfiguracja ==
+
+- W panelu ustawień zmienisz kolory interfejsu i adres strumienia.
+- Po zapisaniu ustawień odtwarzacz będzie korzystał z tych wartości.
+
+== Wsparcie i rozwój ==
+
+Projekt jest open source.  
+Pojawiły się błędy lub masz pomysł na nową funkcję?  
+Zgłoś problem lub propozycję na [GitHub](https://github.com/twoje-uzytkownik/radiodimah-player).
+
+== Licencja ==
+
+Ten plugin jest dostępny na licencji GPLv2 lub nowszej.  
+Możesz go kopiować, modyfikować i rozpowszechniać zgodnie z warunkami Licencji Publicznej GNU.  
+
+Pełny tekst licencji znajdziesz tutaj:  
+http://www.gnu.org/licenses/gpl-2.0.html
